@@ -4,6 +4,7 @@ import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { slides } from "@/data/content";
+import { VideoButton } from "./VideoButton";
 
 const INTERVAL = 5000;
 
@@ -95,6 +96,7 @@ export function HeroSlider() {
                       </Button>
                     ))}
                   </div>
+                  <VideoButton />
                 </>
               ) : null}
             </div>
