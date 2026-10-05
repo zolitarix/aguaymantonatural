@@ -37,7 +37,7 @@ const tiposCliente = [
 const field =
   "mt-2 h-11 rounded-md border-border bg-card focus-visible:ring-1 focus-visible:ring-gold";
 
-export function ContactForm({ productoInicial }: { productoInicial?: string }) {
+export function ContactForm({ productoInicial }: { productoInicial?: string | undefined }) {
   const [enviado, setEnviado] = useState(false);
 
   const {
@@ -87,7 +87,7 @@ export function ContactForm({ productoInicial }: { productoInicial?: string }) {
     );
   }
 
-  const Error = ({ msg }: { msg?: string }) =>
+  const Error = ({ msg }: { msg?: string | undefined }) =>
     msg ? (
       <p role="alert" className="mt-1.5 text-xs font-medium text-destructive">
         {msg}

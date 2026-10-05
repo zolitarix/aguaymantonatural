@@ -8,7 +8,7 @@ import { FAQAccordion } from "@/components/site/FAQAccordion";
 import { imagenes } from "@/data/content";
 import { site, whatsappUrl } from "@/config/site";
 
-type ContactoSearch = { producto?: string };
+type ContactoSearch = { producto?: string | undefined };
 
 export const Route = createFileRoute("/contacto")({
   validateSearch: (search: Record<string, unknown>): ContactoSearch => ({
