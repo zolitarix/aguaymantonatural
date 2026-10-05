@@ -12,7 +12,7 @@ type ContactoSearch = { producto?: string | undefined };
 
 export const Route = createFileRoute("/contacto")({
   validateSearch: (search: Record<string, unknown>): ContactoSearch => ({
-    producto: typeof search.producto === "string" ? search.producto : undefined,
+    producto: typeof search['producto'] === "string" ? search['producto'] : undefined,
   }),
   head: () => ({
     meta: [
