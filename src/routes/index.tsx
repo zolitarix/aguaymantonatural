@@ -21,7 +21,7 @@ import { site } from "@/config/site";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: `${site.marca} | Venta de aguaymanto peruano al por mayor y menor` },
+      { title: `${site.marca} | Venta de aguaymanto peruano al por mayor y menor - Limatambo` },
       {
         name: "description",
         content:
