@@ -27,7 +27,7 @@ export const Route = createFileRoute("/")({
         content:
           "Producción y comercialización de aguaymanto peruano seleccionado. Atendemos a restaurantes, tiendas, distribuidores y compradores mayoristas. Solicita tu cotización.",
       },
-      { property: "og:title", content: `${site.marca} | Aguaymanto peruano de calidad` },
+      { property: "og:title", content: `${site.marca} | Aguaymanto peruano de calidad - Limatambo` },
       {
         property: "og:description",
         content:
@@ -69,9 +69,9 @@ function Inicio() {
 
           <div>
             <SectionTitle
-              eyebrow="Sobre nosotros"
+              eyebrow="Sobre la empresa"
               title="Comprometidos con la calidad del aguaymanto peruano"
-              description="Somos una empresa dedicada a la producción y comercialización de aguaymanto, comprometida con ofrecer productos de calidad y construir relaciones comerciales duraderas con nuestros clientes."
+              description="Somos una empresa dedicada a la producción y comercialización de aguaymanto, comprometida con ofrecer productos de calidad y construir relaciones comerciales duraderas con nuestros clientes - Limatambeño."
             />
             <Reveal delay={120}>
               <ul className="mt-8 grid gap-3 sm:grid-cols-2">
