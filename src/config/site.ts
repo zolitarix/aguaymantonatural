@@ -13,17 +13,17 @@ export const site = {
     "Producción y comercialización de aguaymanto peruano seleccionado para clientes particulares, restaurantes, tiendas, distribuidores y compradores mayoristas.",
   url: "https://aguaymanto-peru.lovable.app",
   contacto: {
-    telefono: "[TELÉFONO]",
-    telefonoLink: "tel:+51000000000",
-    whatsapp: "[WHATSAPP]",
+    telefono: "+51 929162632",
+    telefonoLink: "tel:+51929162632",
+    whatsapp: "+51 929162632",
     // Número en formato internacional sin signos, ej: 51987654321
-    whatsappNumero: "51000000000",
+    whatsappNumero: "51929162632",
     whatsappMensaje:
       "Hola, estoy interesado en sus productos de aguaymanto y quisiera recibir información.",
-    correo: "[CORREO]",
-    direccion: "[DIRECCIÓN]",
-    ciudad: "[CIUDAD]",
-    horario: "[HORARIO]",
+    correo: "contacto@aguaymantonatural.com",
+    direccion: "Comunidad Sauceda S/N",
+    ciudad: "Limatambo - Anta - Cusco",
+    horario: "Lunes a Sábado, 8:00 a.m. - 6:00 p.m.",
   },
   redes: {
     facebook: "#",
