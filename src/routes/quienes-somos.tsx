@@ -53,7 +53,7 @@ function QuienesSomos() {
         <div className="container-site grid items-center gap-14 lg:grid-cols-2">
           <div>
             <SectionTitle
-              eyebrow="Nuestra empresa"
+              eyebrow="Sobre Nuestra Empresa"
               title="Trabajamos con el aguaymanto peruano y con quienes lo valoran"
             />
             <Reveal delay={100} className="mt-7 space-y-5 text-base leading-relaxed text-muted-foreground">
