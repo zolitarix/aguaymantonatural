@@ -54,7 +54,7 @@ function QuienesSomos() {
           <div>
             <SectionTitle
               eyebrow="Sobre Nuestra Empresa"
-              title="Aguaymanto: El Oro Natural de los Andes que Representa Nuestra Esencia Empresarial"
+              title="El Oro Natural de los Andes que Representa Nuestra Esencia Empresarial"
             />
             <Reveal delay={100} className="mt-7 space-y-5 text-base leading-relaxed text-muted-foreground">
               <p>
